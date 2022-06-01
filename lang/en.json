@@ -1,4 +1,5 @@
 {
+    "title": "Simple Multilingual Website",
     "sel": "Choose language: ",
     "lang_de": "Deutsch (German)",
     "lang_en": "English",
@@ -6,9 +7,9 @@
     "lang_it": "Italiano (Italian)",
     "lang_zh": "中文 (Chinese)",
     "hello": "Hello!",
-    "descr": "This is a simple multilingual webpage.",
+    "descr": "This is a simple multilingual website.",
     "gen": "In the beginning God created the heaven and the earth. <i>(Genesis 1:1)</i>",
     "jh": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life. <i>(John 3:16)</i>",
     "author": "Author: Anonymous",
-    "cpyr": "Copyright &copy; Simple Multilingual Webpage. All rights reserved."
+    "cpyr": "Copyright &copy; Simple Multilingual Website. All rights reserved."
 }

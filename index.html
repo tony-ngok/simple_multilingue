@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{title}}</title>
+
+        <style type="text/css">
+        div {
+            text-align: center;
+        }
+
+        div#footer {
+            font-size: 12px;
+        }
+        </style>
+    </head>
+
+    <body>
+        <div id="sel_lang">
+            <label for="lang" id="sel">{{sel}}</label>
+            <select name="lang" id="lang">
+                <option value="de" id="lang_de">{{lang_de}}</option>
+                <option value="en" id="lang_en" selected="selected">{{lang_en}}</option>
+                <option value="fr" id="lang_fr">{{lang_fr}}</option>
+                <option value="it" id="lang_it">{{lang_it}}</option>
+                <option value="zh" id="lang_zh">{{lang_zh}}</option>
+            </select>
+        </div>
+
+        <div id="title">
+            <h1 id="hello">{{hello}}</h1>
+            <h3 id="descr">{{descr}}</h3>
+        </div>
+    
+        <div id="bible">
+            <p id="gen">{{gen}}</i></p>
+            <p id="jh">{{jh}}</i></p>
+        </div>
+    
+        <div id="footer">
+            <p id="author">{{author}}</p>
+            <p id="cpyr">{{cpyr}}</p>
+        </div>
+    </body>
+</html>

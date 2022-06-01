@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tngok-wustl/simple_multilingue/issues"
   },
-  "homepage": "https://github.com/tngok-wustl/simple_multilingue#readme"
+  "homepage": "https://github.com/tngok-wustl/simple_multilingue#readme",
+  "dependencies": {
+    "glob": "^8.0.3"
+  }
 }

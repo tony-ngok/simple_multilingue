@@ -1,4 +1,5 @@
 {
+    "title": "Einfache mehrsprachige Internetseite",
     "sel": "Sprache auswählen: ",
     "lang_de": "Deutsch",
     "lang_en": "English (Englisch)",
@@ -6,9 +7,9 @@
     "lang_it": "Italiano (Italienisch)",
     "lang_zh": "中文 (Chinesisch)",
     "hello": "Hallo!",
-    "descr": "Dies ist eine einfache mehrsprachige Webseite.",
+    "descr": "Dies ist eine einfache mehrsprachige Internetseite.",
     "gen": "Am Anfang schuf Gott Himmel und Erde. <i>(Genesis 1,1)</i>",
     "jh": "Also hat Gott die Welt geliebt, daß er seinen eingeborenen Sohn gab, auf daß alle, die an ihn glauben, nicht verloren werden, sondern das ewige Leben haben. <i>(Johannes 3,16)</i>",
     "author": "Autor: Anonymer",
-    "cpyr": "Urheberrechte &copy; Einfache mehrsprachige Webseite. Alle Rechte vorbehalten."
+    "cpyr": "Urheberrechte &copy; Einfache mehrsprachige Internetseite. Alle Rechte vorbehalten."
 }
