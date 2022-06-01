@@ -10,6 +10,11 @@
             text-align: center;
         }
 
+        a {
+            color: blue;
+            text-decoration: underline;
+        }
+
         div#footer {
             font-size: 12px;
         }
@@ -18,14 +23,12 @@
 
     <body>
         <div id="sel_lang">
-            <label for="lang" id="sel">{{sel}}</label>
-            <select name="lang" id="lang">
-                <option value="de" id="lang_de">{{lang_de}}</option>
-                <option value="en" id="lang_en" selected="selected">{{lang_en}}</option>
-                <option value="fr" id="lang_fr">{{lang_fr}}</option>
-                <option value="it" id="lang_it">{{lang_it}}</option>
-                <option value="zh" id="lang_zh">{{lang_zh}}</option>
-            </select>
+            <label id="sel">{{sel}}</label>
+            <a href="/de" id="lang_de">{{lang_de}}</a>
+            <a href="/en" id="lang_en">{{lang_en}}</a>
+            <a href="/fr" id="lang_fr">{{lang_fr}}</a>
+            <a href="/it" id="lang_it">{{lang_it}}</a>
+            <a href="/zh" id="lang_zh">{{lang_zh}}</a>
         </div>
 
         <div id="title">

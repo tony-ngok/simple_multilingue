@@ -31,6 +31,11 @@ http.createServer(function(req, res) {
         let code = dash[1];
         if (code != '' && language_dict.hasOwnProperty(code)) {
             lang = code;
+        } else if (code != '' && !language_dict.hasOwnProperty(code)) {
+            // https://stackoverflow.com/questions/20933510/node-js-server-404-not-found-message-to-404-html-page
+            res.writeHead(404, {'Content-Type': 'text/html'});
+            return res.end("<h2>404 Not Found</h2>\n"
+            + "<a href='/en' style='color: blue; text-decoration: underline;'>Back to homepage</a>");
         }
     }
   
