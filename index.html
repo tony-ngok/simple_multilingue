@@ -22,6 +22,8 @@
     </head>
 
     <body>
+        <div hidden id="lang">{{lang}}</div>
+
         <div id="sel_lang">
             <label id="sel">{{sel}}</label>
             <a href="/de" id="lang_de">{{lang_de}}</a>
@@ -45,5 +47,32 @@
             <p id="author">{{author}}</p>
             <p id="cpyr">{{cpyr}}</p>
         </div>
+
+        <script>
+            var selectLang = document.getElementById("sel_lang");
+            
+            // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/lang
+            document.documentElement.lang = document.getElementById("lang").innerHTML;
+
+            // https://developer.mozilla.org/en-US/docs/Web/API/Element/children
+            for (var i = 1; i < selectLang.children.length; ++i) {
+                // https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute
+                var href = selectLang.children[i].getAttribute("href").substring(1);
+
+                if (href == document.documentElement.lang) {
+                    // https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events
+                    selectLang.children[i].style.pointerEvents = "none";
+
+                    selectLang.children[i].style.color = "black";
+                    selectLang.children[i].style.textDecoration = "none";
+                    selectLang.children[i].style.fontWeight = "bold";
+                } else {
+                    selectLang.children[i].style.pointerEvents = "auto";
+                    selectLang.children[i].style.color = "blue";
+                    selectLang.children[i].style.textDecoration = "underline";
+                    selectLang.children[i].style.fontWeight = "normal";
+                }
+            }
+        </script>
     </body>
 </html>
