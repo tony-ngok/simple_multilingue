@@ -6,4 +6,4 @@
 
 3. Go to the URL http://localhost:8080/en inside the browser.
 
-**Note:** If an unsupported language is used, then the page will default to English.
+**Note:** If an unsupported language is used, then an error message will be shown.
